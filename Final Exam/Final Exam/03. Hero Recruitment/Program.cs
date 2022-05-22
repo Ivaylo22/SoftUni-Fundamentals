@@ -65,7 +65,7 @@ namespace _03._Hero_Recruitment
                 }
                 input = Console.ReadLine();
             }
-            Console.WriteLine("Heroes");
+            Console.WriteLine("Heroes:");
             foreach (var hero in heroes) 
             {
                 Console.WriteLine($"== {hero.Key}: {string.Join(", ", hero.Value)}");              
